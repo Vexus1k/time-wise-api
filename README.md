@@ -50,7 +50,7 @@ The application uses JWT tokens for authentication and access control. Below are
 application:
   security:
     jwt:
-      secret-key: [ENTER YOUR JWT SECRET KEY]
+      secret-key: [ENTER YOUR JWT SECRET KEY] # RECOMMENDED JWT KEY LENGTH IS 256 BITS (32 BYTES) OR LONGER
       expiration: 86400000 # Token validity period (1 day)
       refresh-token:
         expiration: 604800000 # Refresh token validity period (7 days)
