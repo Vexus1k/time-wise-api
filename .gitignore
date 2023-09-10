@@ -1,9 +1,6 @@
 HELP.md
 target/
 data/
-src/main/resources/application.properties
-src/main/resources/application-local.yml
-src/main/resources/application-prod.yml
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -36,3 +33,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore files .DS_Store
+.DS_Store
